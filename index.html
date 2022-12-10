@@ -43,6 +43,26 @@ body {
     color: #333;
   }
 </style>
+  
+  <style>
+  .calendar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .day {
+    flex: 1;
+  }
+
+  .event {
+    text-align: center;
+  }
+
+  .day:hover .event {
+    background-color: #ddd;
+  }
+</style>
+
 
 </head>
 <body>
@@ -50,6 +70,33 @@ body {
 <div class="banner">
   <h1>Carlisle Chess Club</h1>
 </div>
+
+
+  <h1>Weekly Calendar</h1>
+  <div class="calendar">
+    <div class="day">
+      <div class="name">Monday</div>
+      <div class="event">8:00am<br>Chess Club<br>CPS Cafeteria</div>
+    </div>
+    <div class="day">
+      <div class="name">Tuesday</div>
+      <div class="event"></div>
+    </div>
+    <div class="day">
+      <div class="name">Wednesday</div>
+      <div class="event">8:00am<br>Chess Club<br>CPS Cafeteria</div>
+    </div>
+    <div class="day">
+      <div class="name">Thursday</div>
+      <div class="event">8:00am<br>Chess Club<br>CPS Cafeteria</div>
+    </div>
+    <div class="day">
+      <div class="name">Friday</div>
+      <div class="event"></div>
+    </div>
+  </div>
+
+
 
 
 <div class="main-content">
